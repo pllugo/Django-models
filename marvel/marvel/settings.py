@@ -87,16 +87,16 @@ DATABASES = {
     #   POSTGRES_USER: inove_user
     #   POSTGRES_PASSWORD: 123Marvel!
 
-# DATABASES = {
-#     'default': {
-#         'ENGINE': 'django.db.backends.postgresql_psycopg2',
-#         'NAME': 'marvel_db',        # POSTGRES_DB
-#         'USER' : 'inove_user',      # POSTGRES_USER
-#         'PASSWORD' : '123Marvel!',  # POSTGRES_PASSWORD
-#         'HOST':'db',                # Nombre del servicio
-#         'PORT': '5432'              # Número del puerto
-#     }
-# }
+DATABASES = {
+     'default': {
+         'ENGINE': 'django.db.backends.postgresql_psycopg2',
+         'NAME': 'marvel_db',        # POSTGRES_DB
+         'USER' : 'inove_user',      # POSTGRES_USER
+         'PASSWORD' : '123Marvel!',  # POSTGRES_PASSWORD
+         'HOST':'db',                # Nombre del servicio
+         'PORT': '5432'              # Número del puerto
+     }
+ }
 
 # Password validation
 # https://docs.djangoproject.com/en/3.2/ref/settings/#auth-password-validators
